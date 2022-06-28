@@ -116,13 +116,7 @@ const Hero = () => {
             </Link>
           </Flex>
         </Flex>
-        <Flex
-          height={['192px', null, null, '100%']}
-          width={['192px', null, null, '100%']}
-          flex={[null, null, null, '1']}
-          mb={['24px', null, null, '0']}
-          position="relative"
-        >
+        
           <BunnyWrapper>
             <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('Lunar bunny')} />
           </BunnyWrapper>
